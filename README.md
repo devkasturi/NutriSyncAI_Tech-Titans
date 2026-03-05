@@ -5,17 +5,29 @@
 
 ## Team Details
 
-- **Team Name:**
-- **Members:**
-- **Domain:**
+- **Team Name: Tech Titans**
+- **Members: Kasturi Deo
+- Anushree Surve
+- Shriya Gole
+- Shreya Agarwal**
+- **Domain: Healthcare**
 
 ---
 
 ## Project
 
-**Problem:** 
+**Problem:  Most diet apps are manual and tedious. Develop an automated "Balanced Diet" ecosystem that uses AI to suggest meals based on the user's real-time physiological data (e.g., blood oxygen or heart rate).** 
 
-**Solution:** 
+**Solution: NutriSync AI is an Intelligent Nutrition Operating System that integrates real-time health monitoring, AI-driven risk detection, emotional intelligence, and adaptive meal delivery into one closed-loop health navigator.
+
+It goes beyond calorie tracking by combining:
+* Wearable health data
+* Lab report analysis
+* Mood & behavioral insights
+* Personalized cooking & meal delivery
+* Preventive health risk dashboards
+
+It functions as a physiology-driven, emotionally aware, predictive nutrition ecosystem.** 
 
 ---
 
