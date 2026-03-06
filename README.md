@@ -51,9 +51,8 @@ The goal is to create a smart nutrition assistant that adapts to user preference
 * Nutrition tracking
 * AI health coaching
 
-Problem Solved
+**Problem Solved**
 Traditional apps ignore the impact of sleep, stress (HRV), and hormonal cycles on nutrition. NutriSync AI bridges the gap between "monitoring health" and "taking action" by suggesting the right meal for the user's current biological state. To build a closed-loop adaptive nutrition system that continuously learns from user health signals and preferences to recommend healthier food choices.
----
 
 ## Rules to Remember
 
