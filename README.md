@@ -7,7 +7,7 @@
 
 - **Team Name: Tech Titans**
 - **Members: Kasturi Deo
-- Anushree Surve
+  Anushree Surve
 - Shriya Gole
 - Shreya Agarwal**
 - **Domain: Healthcare**
@@ -24,34 +24,34 @@ The system captures PPG signals using a smartphone camera, processes health metr
 The goal is to create a smart nutrition assistant that adapts to user preferences and health signals.
 
 **Features**
-PPG-based heart signal detection using phone camera
-Heart Rate and HRV extraction
-Calorie prediction using XGBoost
-AI-powered meal recommendations
-Personalized nutrition suggestions
-AI health score for meals
-User feedback learning system
-Modern dashboard interface
+* PPG-based heart signal detection using phone camera
+* Heart Rate and HRV extraction
+* Calorie prediction using XGBoost
+* AI-powered meal recommendations
+* Personalized nutrition suggestions
+* AI health score for meals
+* User feedback learning system
+* Modern dashboard interface
 
 **Tech Stack**
-Frontend: Flutter (Mobile OS for iOS/Android).
-Backend: FastAPI (Python) for high-performance ML processing.
-AI/ML: XGBoost: For calorie and risk prediction.
-Google Gemini: For the AI Health Assistant and personalized meal logic.
-Health Integration: Google Fit via the health package.
-Signals: flutter_ppg for camera-based heart rate and HRV monitoring.
+* Frontend: Flutter (Mobile OS for iOS/Android).
+* Backend: FastAPI (Python) for high-performance ML processing.
+* AI/ML: XGBoost: For calorie and risk prediction.
+* Google Gemini: For the AI Health Assistant and personalized meal logic.
+* Health Integration: Google Fit via the health package.
+* Signals: flutter_ppg for camera-based heart rate and HRV monitoring.
 
 **System Flow**
 [User Scan] → [PPG Signal Capture] → [Signal Processing] → [Feature Engineering] → [XGBoost Calorie Prediction] → [Gemini AI Meal Recommendation] → [Dashboard Output] → [User Feedback]
 
 **Future Improvements**
-Wearable device integration
-Continuous health monitoring
-Personalized fitness recommendations
-Nutrition tracking
-AI health coaching
+* Wearable device integration
+* Continuous health monitoring
+* Personalized fitness recommendations
+* Nutrition tracking
+* AI health coaching
 
-🛡️ Problem Solved
+Problem Solved
 Traditional apps ignore the impact of sleep, stress (HRV), and hormonal cycles on nutrition. NutriSync AI bridges the gap between "monitoring health" and "taking action" by suggesting the right meal for the user's current biological state. To build a closed-loop adaptive nutrition system that continuously learns from user health signals and preferences to recommend healthier food choices.
 ---
 
