@@ -15,20 +15,44 @@
 ---
 
 ## Project
+🟢 **NutriSync AI**
+**AI Nutrition Recommendation System**
 
-**Problem:  Most diet apps are manual and tedious. Develop an automated "Balanced Diet" ecosystem that uses AI to suggest meals based on the user's real-time physiological data (e.g., blood oxygen or heart rate).** 
+**Overview**
+This project is an AI-powered personalized nutrition system that recommends meals based on a user's physiological signals and lifestyle data.
+The system captures PPG signals using a smartphone camera, processes health metrics, predicts daily caloric needs using a machine learning model, and generates personalized meal recommendations using an AI agent.
+The goal is to create a smart nutrition assistant that adapts to user preferences and health signals.
 
-**Solution: NutriSync AI is an Intelligent Nutrition Operating System that integrates real-time health monitoring, AI-driven risk detection, emotional intelligence, and adaptive meal delivery into one closed-loop health navigator.
+**Features**
+PPG-based heart signal detection using phone camera
+Heart Rate and HRV extraction
+Calorie prediction using XGBoost
+AI-powered meal recommendations
+Personalized nutrition suggestions
+AI health score for meals
+User feedback learning system
+Modern dashboard interface
 
-It goes beyond calorie tracking by combining:
-* Wearable health data
-* Lab report analysis
-* Mood & behavioral insights
-* Personalized cooking & meal delivery
-* Preventive health risk dashboards
+**Tech Stack**
+Frontend: Flutter (Mobile OS for iOS/Android).
+Backend: FastAPI (Python) for high-performance ML processing.
+AI/ML: XGBoost: For calorie and risk prediction.
+Google Gemini: For the AI Health Assistant and personalized meal logic.
+Health Integration: Google Fit via the health package.
+Signals: flutter_ppg for camera-based heart rate and HRV monitoring.
 
-It functions as a physiology-driven, emotionally aware, predictive nutrition ecosystem.** 
+**System Flow**
+[User Scan] → [PPG Signal Capture] → [Signal Processing] → [Feature Engineering] → [XGBoost Calorie Prediction] → [Gemini AI Meal Recommendation] → [Dashboard Output] → [User Feedback]
 
+**Future Improvements**
+Wearable device integration
+Continuous health monitoring
+Personalized fitness recommendations
+Nutrition tracking
+AI health coaching
+
+🛡️ Problem Solved
+Traditional apps ignore the impact of sleep, stress (HRV), and hormonal cycles on nutrition. NutriSync AI bridges the gap between "monitoring health" and "taking action" by suggesting the right meal for the user's current biological state. To build a closed-loop adaptive nutrition system that continuously learns from user health signals and preferences to recommend healthier food choices.
 ---
 
 ## Rules to Remember
